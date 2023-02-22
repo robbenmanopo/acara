@@ -2,7 +2,7 @@
   $host = "localhost";
   $user = "root";
   $pass = "";
-  $db   = "acara";
+  $db   = "acara"; //baris ini sudah di rubah
 
   $con = mysqli_connect($host, $user, $pass, $db);
   if (mysqli_connect_errno()){
